@@ -125,8 +125,18 @@
   }
   .sponsored img {
     width: 20%;
-
     padding-bottom: 1rem;
+    margin: auto;
+  }
+  .sixth-box{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+
+
+  }
+  .trusted{
+    width: 30%;
     margin: auto;
   }
 }
