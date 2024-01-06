@@ -98,9 +98,35 @@
   .third-text p:nth-child(2) {
     text-align: left;
   }
+  .fifth-title div:first-child {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+  font-size:30px ;}
+
+  .fifth-title div:last-child {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+  }
   .forth-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
+  }
+  .sponsored {
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .sponsored img {
+    width: 20%;
+
+    padding-bottom: 1rem;
+    margin: auto;
   }
 }
