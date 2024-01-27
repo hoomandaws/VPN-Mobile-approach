@@ -45,16 +45,16 @@ nav {
   height: 24px;
   cursor: pointer;
 }
-.drawer span {
+
+.close {
   color: #eeeff2;
   cursor: pointer;
   padding-top: 10px;
+  padding-left: 10px;
   position: absolute;
   left: 0;
   top: 0;
-}
-.drawer span img {
-  width: 30px;
+  font-size: 30px;
 }
 
 .drawer {
@@ -75,6 +75,20 @@ nav {
   transform: translateX(0%);
 }
 
+.hidden {
+  display: none;
+}
+.overlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
 ul li {
   list-style-type: none;
   padding: 20px;
@@ -366,7 +380,7 @@ p.tick-img::before {
 .sixth-text {
   width: 100%;
   height: 10rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .sixth-text p:first-child {
   width: 50%;
@@ -402,5 +416,32 @@ p.tick-img::before {
   gap: 1rem;
   display: flex;
   align-items: center;
-
+}
+/* seven-section */
+.seven-section {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+}
+.seven-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.seven-text p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.seven-btn {
+  text-align: center;
+}
+.Subscribe-btn button {
+  background-color: var(--primery);
+  color: #ffffff;
+}
+.Subscribe-btn button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid var(--primery);
 }

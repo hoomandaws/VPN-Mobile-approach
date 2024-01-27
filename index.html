@@ -16,23 +16,18 @@
           <p>Lasles <span> VPN</span></p>
         </div>
         <img
-          onclick='document.getElementById("drawer").classList.add("open")'
           class="nav-burger"
           src="./image/hamburger-img.png"
           alt="burger-icon"
           id="hamburger"
         />
-        <div class="drawer" id="drawer">
-          <span
-            onclick='
-        document.getElementById("drawer").classList.remove("open")'
-            ><img src="./image/cross.png" alt=""
-          /></span>
+        <div class="drawer">
+          <span class="close"> &times;</span>
           <ul>
             <li><a href="#">About</a></li>
             <li><a href="#Features">Features</a></li>
             <li><a href="#Pricing">Pricing</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
             <li><a href="#">Help</a></li>
           </ul>
           <div class="nav-btn">
@@ -190,7 +185,7 @@
       </div>
     </div>
     <!-- sixth-section -->
-    <div class="sixth-section">
+    <div class="sixth-section" id="Testimonials">
       <div class="sixth-text">
         <p class="sixth-text-bold">Trusted by Thousands of Happy Customer</p>
         <p>
@@ -201,32 +196,59 @@
       <div class="sixth-box">
         <div class="trusted">
           <div class="profile">
-            <img src="./image/Ellipse 175.png" alt="">
+            <img src="./image/Ellipse 175.png" alt="" />
             <div>
               <p>Viezh Robert</p>
               <p>Warsaw, Poland</p>
             </div>
           </div>
-          <div >“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
-        </div>
-        <div class="trusted"><div class="profile">
-          <img src="./image/Ellipse 175.png" alt="">
-          <div>
-            <p>Viezh Robert</p>
-            <p>Warsaw, Poland</p>
+          <div style="padding-top: 10px">
+            “Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best”.
           </div>
         </div>
-        <div >“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
-      </div>
-        <div class="trusted"><div class="profile">
-          <img src="./image/Ellipse 175.png" alt="">
-          <div>
-            <p>Viezh Robert</p>
-            <p>Warsaw, Poland</p>
+        <div class="trusted">
+          <div class="profile">
+            <img src="./image/Ellipse 175.png" alt="" />
+            <div>
+              <p>Viezh Robert</p>
+              <p>Warsaw, Poland</p>
+            </div>
+          </div>
+          <div style="padding-top: 10px">
+            “Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best”.
           </div>
         </div>
-        <div >“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
+        <div class="trusted">
+          <div class="profile">
+            <img src="./image/Ellipse 175.png" alt="" />
+            <div>
+              <p>Viezh Robert</p>
+              <p>Warsaw, Poland</p>
+            </div>
+          </div>
+          <div style="padding-top: 10px">
+            “Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best”.
+          </div>
+        </div>
       </div>
     </div>
+    <!-- seventh section -->
+    <div class="seven-section">
+      <div class="seven-text">
+        <p>Subscribe Now for Get Special Features!</p>
+        <p>Let's subscribe with us and find the fun.</p>
+      </div>
+      <div class="Subscribe-btn plans-btn">
+        <button>Subscribe Now</button>
+      </div>
+    </div>
+    <div class="overlayer hidden"></div>
+    <script src="./script.js"></script>
   </body>
 </html>
