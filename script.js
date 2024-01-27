@@ -13,6 +13,7 @@ const close = function () {
 };
 closeIcon.addEventListener("click", close);
 overlayer.addEventListener("click", close);
+window.addEventListener("scroll", close);
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && drawer.classList.contains("open")) {
     close();
